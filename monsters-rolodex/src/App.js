@@ -21,13 +21,11 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-      <CardList name='Paul'>
-        <h1>Paul Friel</h1>
-      </CardList>
-        {
-          this.state.monsters.map(monster => (
-            <h1 key={monster.id}> { monster.address.street } </h1>)
-        )}
+        <CardList name='Paul'>
+          { this.state.monsters.map(monster => (
+              <h1 key={monster.id}> { monster.address.street } </h1>)
+          )}
+        </CardList>
       </div>
     );
   }
