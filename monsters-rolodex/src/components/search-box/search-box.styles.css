@@ -1,9 +1,15 @@
 .search {
   -webkit-appearance: none;
-  border: none;
+  border: 2px solid #333333;
+  border-radius: 0.5rem;
   outline: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
   padding: 0.625rem;
-  width: 9.375rem;
+  width: 10rem;
   line-height: 1.875rem;
+  margin-top: 1.875rem;
   margin-bottom: 1.875rem;
 }
