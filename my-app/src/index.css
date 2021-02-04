@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Green to Blue colour fade from left to right */ 
+  background-image: linear-gradient(to right, #336600 , #000099);
 }
 
 code {
